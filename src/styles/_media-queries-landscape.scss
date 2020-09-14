@@ -1,0 +1,114 @@
+@import 'variables';
+
+/* MEDIA QUERIES (LANDSCAPE) */
+@media (orientation: landscape) and (max-height: 450px) {
+  .navbar {
+    height: 12vh;
+  }
+
+  .social-media-icons-landscape {
+    display: inline-block;
+  }
+
+  .main-section,
+  .resume-section,
+  .portfolio-section {
+    height: 90vh;
+    margin-top: 10vh;
+    margin-bottom: 0;
+  }
+
+  .footer {
+    display: none;
+  }
+
+  .hero-content-container {
+    width: 95%;
+    max-width: none;
+    max-height: none;
+  }
+
+  .hero-title {
+    padding: 1rem 0 0 0;
+  }
+
+  .hero-description {
+    padding: 1rem;
+  }
+
+  .hero-description-text {
+    font-size: $font-size-lg;
+  }
+
+  .hero-tech-stack-section {
+    padding-bottom: 1.5rem;
+  }
+
+  .resume-text-container {
+    width: 90%;
+    max-width: none;
+    padding: 2rem 0rem 2rem 0rem;
+  }
+
+  .resume-text-container-internal {
+    font-size: $font-size-xxs;
+    margin-bottom: 0.8rem;
+  }
+
+  .resume-left-side-item,
+  .resume-right-side-item,
+  .resume-left-side-item-sm,
+  .resume-right-side-item-sm {
+    padding: 3px;
+    margin-bottom: 4px;
+  }
+
+  .resume-left-side-item-lg,
+  .resume-right-side-item-lg {
+    padding: 2px;
+  }
+
+  .resume-rightside-line {
+    margin-bottom: 2px;
+  }
+
+  .stacklist {
+    grid-template-columns: repeat(5, 1fr);
+  }
+
+  .buttons-container {
+    margin: 0.5rem 0;
+  }
+
+  .button-outline {
+    font-size: $font-size-sm;
+  }
+}
+
+@media (orientation: landscape) and (max-height: 330px) {
+  .hero-title,
+  .resume-languages-section {
+    display: none;
+  }
+
+  .hero-description-text {
+    font-size: $font-size-lg;
+  }
+
+  .resume-text-container-internal {
+    font-size: $font-size-xxxs;
+  }
+
+  .resume-left-side-item,
+  .resume-right-side-item,
+  .resume-left-side-item-sm,
+  .resume-right-side-item-sm {
+    margin-bottom: 5px;
+    height: 30%;
+  }
+
+  .resume-left-side-item-lg,
+  .resume-right-side-item-lg {
+    height: 40%;
+  }
+}

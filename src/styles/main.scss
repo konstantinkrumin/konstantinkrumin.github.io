@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700&display=swap');
+@import 'variables';
+@import 'navbar-and-footer';
+@import 'body';
+@import 'hero';
+@import 'portfolio-page';
+@import 'resume-page';
+@import 'buttons';
+@import 'switch-toggler';
+@import 'media-queries-landscape';
+@import 'media-queries-portrait';
+
+/* MAIN */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-size: $default-font-size;
+  font-family: $main-font;
+  color: $font-color;
+  background-color: $main-color;
+}

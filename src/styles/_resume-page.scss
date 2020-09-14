@@ -1,0 +1,62 @@
+@import "variables";
+
+/* RESUME PAGE */
+.resume-text-container {
+  width: 90%;
+  max-width: 500px;
+  max-height: 90%;
+  background-color: $secondary-color;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.resume-text-container-internal {
+  font-size: $font-size-sm;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin-bottom: 1rem;
+}
+
+.resume-left-side-item,
+.resume-right-side-item {
+  height: 25%;
+  padding: 5px;
+}
+
+.resume-left-side-item-sm,
+.resume-right-side-item-sm {
+  height: 20%;
+  padding: 5px;
+}
+
+.resume-left-side-item-lg,
+.resume-right-side-item-lg {
+  height: 35%;
+  padding: 5px;
+}
+
+.resume-left-side-item,
+.resume-left-side-item-sm,
+.resume-left-side-item-lg {
+  text-align: right;
+}
+
+.resume-rightside-line {
+  margin-bottom: 5px;
+}
+
+.stacklist {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 5px;
+}
+
+.buttons-container {
+  text-align: center;
+  margin-top: 1rem;
+}

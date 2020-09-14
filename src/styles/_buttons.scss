@@ -1,0 +1,40 @@
+@import "variables";
+
+/* BUTTONS */
+.button,
+.button-outline,
+.button-filled {
+  color: $font-color;
+  font-family: $main-font;
+  cursor: pointer;
+  outline: none;
+  transition: color 250ms;
+
+  &:hover,
+  &:focus {
+    color: $accent-color;
+  }
+}
+
+@mixin button-setup($bg-color, $padding-tb, $padding-lr, $margin, $border-color, $border-radius) {
+  background-color: $bg-color;
+  padding: $padding-tb $padding-lr;
+  margin: $margin;
+  border: 1px solid $border-color;
+  border-radius: $border-radius;
+}
+
+.button-outline {
+  @include button-setup(transparent, 7px, 10px, 5px, $font-color, 10px);
+  transition: border-color 250ms;
+
+  &:hover,
+  &:focus {
+    border-color: $accent-color;
+  }
+}
+
+.button-filled {
+  @include button-setup($secondary-color, 3px, 5px, 5px, $secondary-color, 5px);
+  font-size: $font-size-sm;
+}

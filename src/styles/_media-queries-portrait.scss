@@ -1,0 +1,67 @@
+@import 'variables';
+
+/* MEDIA QUERIES (PORTRAIT) */
+@media (orientation: portrait) and (max-width: 770px) {
+  .project-tile {
+    font-size: $font-size-xs;
+  }
+}
+
+@media (max-width: 550px) {
+  .hero-content-container {
+    width: 80%;
+  }
+
+  .hero-description-text {
+    font-size: $font-size-lg;
+  }
+}
+
+@media (orientation: portrait) and (max-width: 500px) {
+  .nav-md-lg-xl-screens {
+    display: none;
+  }
+
+  .nav-small-screens {
+    display: inline-block;
+  }
+
+  .resume-text-container {
+    padding: 2rem 0;
+  }
+
+  .resume-text-container-internal {
+    font-size: $font-size-xs;
+  }
+
+  .hide-sm-screen {
+    display: none;
+  }
+}
+
+@media (orientation: portrait) and (max-width: 400px) {
+  .hero-tech-stack-section {
+    width: 80%;
+  }
+
+  .resume-text-container-internal {
+    font-size: $font-size-xxs;
+  }
+
+  .resume-left-side-item,
+  .resume-left-side-item-sm,
+  .resume-left-side-item-lg {
+    width: 100px;
+  }
+}
+
+@media (orientation: portrait) and (max-width: 320px) {
+  .button-download-resume {
+    display: none;
+  }
+
+  .profile-links-section {
+    width: 100%;
+    text-align: center;
+  }
+}

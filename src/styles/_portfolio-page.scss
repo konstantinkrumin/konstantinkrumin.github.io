@@ -1,0 +1,40 @@
+@import 'variables';
+
+/* PORTFOLIO PAGE */
+.portfolio-tiles-container {
+  width: 90%;
+  max-width: 700px;
+  height: 80vh;
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+  grid-gap: 5px;
+}
+
+.project-tile {
+  height: 130px;
+  font-size: $font-size-sm;
+  text-align: center;
+}
+
+.project-tile:nth-last-child(-n+1) {
+  margin-bottom: $default-footer-height + 1vh;
+}
+
+.tile-title-section {
+  height: 25%;
+  padding: 10px 0;
+  background-color: $secondary-color;
+  border-radius: 10px 10px 0 0;
+}
+
+.tile-preview-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 75%;
+  border: 1px solid $secondary-color;
+  border-radius: 0 0 10px 10px;
+  
+  // background-image: url(https://i.imgur.com/QnETdyT.jpg);
+  // background-size: 100%;
+}

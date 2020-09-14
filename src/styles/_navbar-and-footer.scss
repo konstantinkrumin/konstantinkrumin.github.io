@@ -1,0 +1,76 @@
+@import 'variables';
+
+/* NAVBAR AND FOOTER */
+.navbar,
+.footer {
+  position: fixed;
+  left: 0;
+  width: 100%;
+  padding: 0.75rem 2rem;
+  background: $secondary-color;
+  z-index: 1;
+  display: flex;
+  justify-content: space-between;
+}
+
+.navbar {
+  top: 0;
+  height: $default-nav-height;
+}
+
+.nav-small-screens {
+  display: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.navlink {
+  margin: 0 5px;
+}
+
+.nav-links-sm-screen {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 0;
+  overflow: hidden;
+  margin-top: $default-nav-height;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: $secondary-color;
+  opacity: 0.95;
+  transition: all 0.3s linear;
+}
+
+.show-nav {
+  height: $default-body-height;
+}
+
+.navlink-sm-screen {
+  height: 30%;
+  text-align: center;
+  transition: all 0.3s linear;
+  font-weight: 700;
+  letter-spacing: 3px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.footer {
+  bottom: 0;
+  height: $default-footer-height;
+}
+
+.social-media-icons-landscape {
+  display: none;
+}
+
+.profile-links {
+  margin: 0 10px;
+}
