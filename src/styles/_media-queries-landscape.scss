@@ -101,6 +101,10 @@
   .button-outline {
     font-size: $font-size-sm;
   }
+
+  .hide-sm-screen {
+    display: none;
+  }
 }
 
 @media (orientation: landscape) and (max-height: 330px) {

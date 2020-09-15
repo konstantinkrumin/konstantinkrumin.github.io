@@ -1,7 +1,7 @@
-import React from "react";
+import React from 'react';
 
-import ResumeButton from "../buttons/ResumeButton";
-import SocialMediaIcons from "../common-components/SocialMediaIcons";
+import ResumeButton from '../buttons/ResumeButton';
+import SocialMediaIcons from '../common-components/SocialMediaIcons';
 
 export default function Footer() {
   return (
