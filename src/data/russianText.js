@@ -4,8 +4,9 @@ import addCommonParameters from '../helpers/addCommonParameters';
 let russianText = {
   downloads: {
     resume:
-      'https://github.com/konstantinkrumin/portfolio-page-template/blob/master/src/static/Резюме_Константин_Крумин.pdf',
-    cv: 'https://github.com/konstantinkrumin/portfolio-page-template/blob/master/src/static/CV_Konstantin_Krumin_2.pdf',
+      'https://github.com/konstantinkrumin/konstantinkrumin.github.io/blob/master/src/static/Резюме_Константин_Крумин.pdf',
+    cv:
+      'https://github.com/konstantinkrumin/konstantinkrumin.github.io/blob/master/src/static/CV_Konstantin_Krumin_2.pdf',
   },
   navigation: {
     home: 'Про меня',
