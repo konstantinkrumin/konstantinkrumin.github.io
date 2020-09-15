@@ -1,7 +1,6 @@
 @import "variables";
 
-/* MEDIA QUERIES (LANDSCAPE) */
-@media (orientation: landscape) and (min-height: 900px) {
+@media (min-height: 900px) {
   .navbar {
     height: 55px;
   }
@@ -19,6 +18,7 @@
   }
 }
 
+/* MEDIA QUERIES (LANDSCAPE) */
 @media (orientation: landscape) and (max-height: 450px) {
   .navbar {
     height: 12vh;
