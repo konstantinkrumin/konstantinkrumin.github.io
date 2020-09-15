@@ -1,5 +1,5 @@
 /* VARIABLES */
-$main-font: 'Montserrat', sans-serif;
+$main-font: "Montserrat", sans-serif;
 
 $main-color: #414042;
 $secondary-color: #141414;
@@ -15,5 +15,10 @@ $font-size-lg: 1.2rem;
 $font-size-xl: 1.5rem;
 
 $default-nav-height: 7vh;
-$default-body-height: 87vh;
 $default-footer-height: 6vh;
+
+$default-nav-max-height: 52px;
+$default-footer-max-height: 45px;
+
+$default-body-height: 87vh;
+$default-body-max-height: calc(100vh - #{$default-nav-max-height} - #{$default-footer-max-height});

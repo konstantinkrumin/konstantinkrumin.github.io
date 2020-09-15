@@ -2,7 +2,7 @@
   "name": "konstantin-krumin-portfolio",
   "version": "0.1.0",
   "private": true,
-  "homepage": "https://konstantinkrumin.github.io/",
+  "homepage": "http://konstantinkrumin.github.io",
   "dependencies": {
     "@fortawesome/fontawesome-svg-core": "^1.2.30",
     "@fortawesome/free-brands-svg-icons": "^5.14.0",
