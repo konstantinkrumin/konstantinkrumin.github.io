@@ -1,6 +1,24 @@
-@import 'variables';
+@import "variables";
 
 /* MEDIA QUERIES (LANDSCAPE) */
+@media (orientation: landscape) and (min-height: 900px) {
+  .navbar {
+    height: 55px;
+  }
+
+  .footer {
+    height: 50px;
+  }
+
+  .main-section,
+  .resume-section,
+  .portfolio-section {
+    height: calc(100vh - 55px - 50px);
+    margin-top: 55px;
+    margin-bottom: 50px;
+  }
+}
+
 @media (orientation: landscape) and (max-height: 450px) {
   .navbar {
     height: 12vh;
