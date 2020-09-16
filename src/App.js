@@ -15,6 +15,7 @@ import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 
 import Context from './context';
+import GA from 'utils/GoogleAnalytics';
 
 export default function App() {
   const DEFAULT_TEXT_CONTENT = englishText;
@@ -32,6 +33,7 @@ export default function App() {
 
   return (
     <Router>
+      {GA.init() && <GA.RouteTracker />}
       <Context.Provider value={{ textContent, FontAwesomeIcon, handleSwitch }}>
         <Navbar />
         <Switch>
