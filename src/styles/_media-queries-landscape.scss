@@ -1,4 +1,4 @@
-@import "variables";
+@import 'variables';
 
 @media (min-height: 900px) {
   .navbar {
@@ -19,6 +19,13 @@
 }
 
 /* MEDIA QUERIES (LANDSCAPE) */
+@media (orientation: landscape) and (min-width: 1920px) {
+  .main-section,
+  .resume-section {
+    background-image: url('../images/bg-image-xl-screen.jpg');
+  }
+}
+
 @media (orientation: landscape) and (max-height: 450px) {
   .navbar {
     height: 12vh;
