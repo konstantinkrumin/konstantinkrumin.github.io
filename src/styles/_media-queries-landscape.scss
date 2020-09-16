@@ -26,6 +26,126 @@
   }
 }
 
+@media (orientation: landscape) and (min-height: 1280px) {
+  .main-section,
+  .resume-section {
+    background-image: url('../images/bg-image-xl-screen.jpg');
+  }
+}
+
+@media (orientation: landscape) and (min-width: 1920px) {
+  /* NAVBAR AND FOOTER */
+  .navbar,
+  .footer {
+    font-size: 1.5rem;
+  }
+
+  .language-toggler {
+    font-size: 1rem;
+  }
+
+  /* MAIN PAGE */
+  .hero-content-container {
+    width: 60%;
+    max-width: none;
+    height: 60vh;
+    justify-content: space-evenly;
+  }
+
+  .hero-title {
+    font-size: 4rem;
+    padding: 0;
+  }
+
+  .hero-description {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+  }
+
+  .hero-description-text {
+    font-size: 4rem;
+    width: 80%;
+  }
+
+  .hero-tech-stack-section {
+    font-size: 3rem;
+    display: flex;
+    justify-content: space-around;
+  }
+
+  .tech-stack-item {
+    margin: 20px;
+  }
+
+  .tech-stack-item-subtext {
+    font-size: 1.5rem;
+  }
+
+  /* PORTFOLIO PAGE */
+  .portfolio-tiles-container {
+    width: 80%;
+    max-width: none;
+    height: 80vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 50px;
+  }
+
+  .project-tile {
+    height: auto;
+    font-size: 1.5rem;
+  }
+
+  .project-tile:nth-last-child(-n + 1) {
+    margin-bottom: initial;
+  }
+
+  .tile-title-section {
+    height: 25%;
+    padding: 10px;
+  }
+
+  .tile-preview-section {
+    height: 75%;
+  }
+
+  .button-filled {
+    @include button-setup(
+      $secondary-color,
+      10px,
+      15px,
+      10px,
+      $secondary-color,
+      5px
+    );
+    font-size: 2rem;
+  }
+
+  /* RESUME PAGE */
+  .resume-text-container {
+    width: 40%;
+    max-width: none;
+    height: 60vh;
+  }
+
+  .resume-text-container-internal {
+    font-size: 1.5rem;
+  }
+
+  .resume-left-side-item,
+  .resume-left-side-item-sm,
+  .resume-left-side-item-lg {
+    text-align: right;
+    margin-right: 10px;
+  }
+
+  .button-outline {
+    @include button-setup(transparent, 12px, 15px, 10px, $font-color, 10px);
+    font-size: 2rem;
+  }
+}
+
 @media (orientation: landscape) and (max-height: 450px) {
   .navbar {
     height: 12vh;

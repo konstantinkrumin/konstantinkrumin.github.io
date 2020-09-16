@@ -16,7 +16,7 @@
   text-align: center;
 }
 
-.project-tile:nth-last-child(-n+1) {
+.project-tile:nth-last-child(-n + 1) {
   margin-bottom: $default-footer-height + 1vh;
 }
 
@@ -34,7 +34,4 @@
   height: 75%;
   border: 1px solid $secondary-color;
   border-radius: 0 0 10px 10px;
-  
-  // background-image: url(https://i.imgur.com/QnETdyT.jpg);
-  // background-size: 100%;
 }
