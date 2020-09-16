@@ -19,20 +19,6 @@
 }
 
 /* MEDIA QUERIES (LANDSCAPE) */
-@media (orientation: landscape) and (min-width: 3648px) {
-  .main-section,
-  .resume-section {
-    background-image: url('../images/bg-image-4k-screen.jpg');
-  }
-}
-
-@media (orientation: landscape) and (min-height: 2432px) {
-  .main-section,
-  .resume-section {
-    background-image: url('../images/bg-image-4k-screen.jpg');
-  }
-}
-
 @media (orientation: landscape) and (min-width: 1920px) {
   .main-section,
   .resume-section {
