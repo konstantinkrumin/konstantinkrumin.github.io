@@ -8,6 +8,7 @@ export default function ButtonOutline(props) {
     <a
       type="button"
       target="_blank"
+      rel="noopener noreferrer"
       href={
         props.isCV === true
           ? textContent.downloads.cv

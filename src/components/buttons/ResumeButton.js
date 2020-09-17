@@ -8,6 +8,7 @@ export default function ResumeButton() {
     <a
       type="button"
       target="_blank"
+      rel="noopener noreferrer"
       href={textContent.downloads.resume}
       className="button button-download-resume"
     >
