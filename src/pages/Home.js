@@ -1,6 +1,6 @@
-import React from "react";
+import React from 'react';
 
-import HeroSection from "../components/hero-components/HeroSection";
+import HeroSection from '../components/hero-components/HeroSection';
 
 export default function Home() {
   return (

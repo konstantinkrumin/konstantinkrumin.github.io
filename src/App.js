@@ -15,7 +15,7 @@ import Portfolio from './pages/Portfolio';
 import Resume from './pages/Resume';
 
 import Context from './context';
-import GA from 'utils/GoogleAnalytics';
+import GA from './utils/GoogleAnalytics';
 
 export default function App() {
   const DEFAULT_TEXT_CONTENT = englishText;

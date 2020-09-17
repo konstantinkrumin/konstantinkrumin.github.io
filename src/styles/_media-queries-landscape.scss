@@ -1,4 +1,4 @@
-@import 'variables';
+@import "variables";
 
 @media (min-height: 900px) {
   .navbar {
@@ -22,14 +22,28 @@
 @media (orientation: landscape) and (min-width: 1920px) {
   .main-section,
   .resume-section {
-    background-image: url('../images/bg-image-xl-screen.jpg');
+    background-image: url("../images/bg-image-xl-screen.jpg");
   }
 }
 
 @media (orientation: landscape) and (min-height: 1280px) {
   .main-section,
   .resume-section {
-    background-image: url('../images/bg-image-xl-screen.jpg');
+    background-image: url("../images/bg-image-xl-screen.jpg");
+  }
+}
+
+@media (orientation: landscape) and (min-width: 3600px) {
+  .main-section,
+  .resume-section {
+    background-image: url("../images/bg-image-4k.jpg");
+  }
+}
+
+@media (orientation: landscape) and (min-height: 2400px) {
+  .main-section,
+  .resume-section {
+    background-image: url("../images/bg-image-4k.jpg");
   }
 }
 
@@ -111,14 +125,7 @@
   }
 
   .button-filled {
-    @include button-setup(
-      $secondary-color,
-      10px,
-      15px,
-      10px,
-      $secondary-color,
-      5px
-    );
+    @include button-setup($secondary-color, 10px, 15px, 10px, $secondary-color, 5px);
     font-size: 2rem;
   }
 

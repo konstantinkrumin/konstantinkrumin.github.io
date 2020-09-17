@@ -1,4 +1,4 @@
-@import 'variables';
+@import "variables";
 
 /* BODY */
 .main-section,
@@ -11,7 +11,7 @@
 
 .main-section,
 .resume-section {
-  background-image: url('../images/bg-image-mountain.jpg');
+  background-image: url("../images/bg-image-mountain.jpg");
   background-position: center;
   object-fit: cover;
 }

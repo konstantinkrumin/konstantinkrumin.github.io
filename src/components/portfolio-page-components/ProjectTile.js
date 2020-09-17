@@ -1,13 +1,13 @@
-import React from "react";
+import React from 'react';
 
-import TileTitleSection from "./TileTitleSection";
-import TilePreviewSection from "./TilePreviewSection";
+import TileTitleSection from './TileTitleSection';
+import TilePreviewSection from './TilePreviewSection';
 
 export default function ProjectTile({
   title,
   imagePreview,
   liveLink,
-  codeSourceLink
+  codeSourceLink,
 }) {
   return (
     <div className="project-tile">
