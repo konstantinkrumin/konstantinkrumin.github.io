@@ -146,10 +146,9 @@ const commonContent = {
       imagePreview:
         'https://github.com/konstantinkrumin/konstantinkrumin.github.io/blob/master/src/images/portfolio-preview/portfolio-page-this-site.jpg?raw=true',
       links: {
-        liveProject:
-          'https://konstantinkrumin.github.io/portfolio-page-template/#/',
+        liveProject: 'https://konstantinkrumin.github.io/#/',
         codeSource:
-          'https://github.com/konstantinkrumin/portfolio-page-template/tree/master',
+          'https://github.com/konstantinkrumin/konstantinkrumin.github.io/tree/master',
       },
     },
   },

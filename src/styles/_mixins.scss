@@ -1,0 +1,7 @@
+@mixin button-setup($bg-color, $padding-tb, $padding-lr, $margin, $border-color, $border-radius) {
+    background-color: $bg-color;
+    padding: $padding-tb $padding-lr;
+    margin: $margin;
+    border: 1px solid $border-color;
+    border-radius: $border-radius;
+}
