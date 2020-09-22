@@ -58,6 +58,41 @@
     font-size: 1rem;
   }
 
+  /* PORTFOLIO PAGE */
+  .portfolio-tiles-container {
+    width: 80%;
+    max-width: none;
+    height: 80vh;
+    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 50px;
+  }
+
+  .project-tile {
+    height: auto;
+    font-size: 1.5rem;
+  }
+
+  .project-tile:nth-last-child(-n + 1) {
+    margin-bottom: initial;
+  }
+
+  .tile-title-section {
+    height: 25%;
+    padding: 10px;
+  }
+
+  .tile-preview-section {
+    height: 75%;
+  }
+
+  .button-filled {
+    @include button-setup($secondary-color, 10px, 15px, 10px, $secondary-color, 5px);
+    font-size: 1.5rem;
+  }
+}
+
+@media (orientation: landscape) and (min-width: 2560px) {
   /* MAIN PAGE */
   .hero-content-container {
     width: 60%;
@@ -94,39 +129,6 @@
 
   .tech-stack-item-subtext {
     font-size: 1.5rem;
-  }
-
-  /* PORTFOLIO PAGE */
-  .portfolio-tiles-container {
-    width: 80%;
-    max-width: none;
-    height: 80vh;
-    grid-template-columns: repeat(4, 1fr);
-    grid-template-columns: repeat(4, 1fr);
-    grid-gap: 50px;
-  }
-
-  .project-tile {
-    height: auto;
-    font-size: 1.5rem;
-  }
-
-  .project-tile:nth-last-child(-n + 1) {
-    margin-bottom: initial;
-  }
-
-  .tile-title-section {
-    height: 25%;
-    padding: 10px;
-  }
-
-  .tile-preview-section {
-    height: 75%;
-  }
-
-  .button-filled {
-    @include button-setup($secondary-color, 10px, 15px, 10px, $secondary-color, 5px);
-    font-size: 2rem;
   }
 
   /* RESUME PAGE */
