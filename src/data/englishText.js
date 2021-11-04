@@ -12,7 +12,7 @@ const englishText = {
     resume: 'Resume',
   },
   home: {
-    description: 'Hi! My name is Konstantin Krumin and I am a Front-End Web Developer.',
+    description: 'Hi! My name is Konstantin Krumin and I am a Fullstack Web Developer.',
   },
   portfolio: [
     { key: 'calculator', title: 'Calculator' },

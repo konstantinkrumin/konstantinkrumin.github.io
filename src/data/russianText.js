@@ -12,7 +12,7 @@ let russianText = {
     resume: 'Резюме',
   },
   home: {
-    description: 'Привет! Меня зовут Константин Крумин и я Front-End Разработчик.',
+    description: 'Привет! Меня зовут Константин Крумин и я Fullstack Разработчик.',
   },
   portfolio: [
     { key: 'calculator', title: 'Калькулятор' },
