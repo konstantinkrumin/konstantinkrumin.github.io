@@ -55,7 +55,8 @@ let russianText = {
       stackList: [
         'JavaScript',
         'Typescript',
-        'React + Redux',
+        'React',
+        'Redux',
         'Node.JS',
         'Express',
         'MongoDB',
@@ -67,7 +68,6 @@ let russianText = {
         'Sass (SCSS)',
         'Material UI',
         'Git',
-        'D3.js',
       ],
     },
     languages: {
