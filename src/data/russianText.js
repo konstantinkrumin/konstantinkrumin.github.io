@@ -3,10 +3,8 @@ import addCommonParameters from '../helpers/addCommonParameters';
 
 let russianText = {
   downloads: {
-    resume:
-      'https://github.com/konstantinkrumin/konstantinkrumin.github.io/blob/master/src/static/Резюме_Константин_Крумин.pdf',
-    cv:
-      'https://github.com/konstantinkrumin/konstantinkrumin.github.io/blob/master/src/static/CV_Konstantin_Krumin_2.pdf',
+    resume: 'https://github.com/konstantinkrumin/konstantinkrumin.github.io/blob/master/src/static/Резюме_Константин_Крумин.pdf',
+    cv: 'https://github.com/konstantinkrumin/konstantinkrumin.github.io/blob/master/src/static/CV_Konstantin_Krumin_2.pdf',
   },
   navigation: {
     home: 'Про меня',
@@ -14,8 +12,7 @@ let russianText = {
     resume: 'Резюме',
   },
   home: {
-    description:
-      'Привет! Меня зовут Константин Крумин и я Front-End Разработчик.',
+    description: 'Привет! Меня зовут Константин Крумин и я Front-End Разработчик.',
   },
   portfolio: [
     { key: 'calculator', title: 'Калькулятор' },
@@ -49,37 +46,33 @@ let russianText = {
     },
     workExperience: {
       title: 'Работа',
-      jobPosition: 'Application Specialist (CaseWare)',
-      jobPlace: 'MNP (Калгари, Канада)',
-      years: '[ 2017 - 2019 ]',
+      jobPosition: 'Frontend Разработчик',
+      jobPlace: 'ICL Services (Казань, Россия)',
+      years: '[ Окт. 2020 - Окт. 2021 ]',
     },
     stack: {
       title: 'Стек',
       stackList: [
         'JavaScript',
-        'HTML5',
-        'Веб-дизайн',
-        'React',
-        'CSS3',
-        'БЭМ',
-        'Redux',
-        'D3.js',
+        'Typescript',
+        'React + Redux',
+        'Node.JS',
+        'Express',
+        'MongoDB',
+        'Mongoose',
         'Python',
+        'Django',
+        'HTML5',
+        'CSS3',
         'Sass (SCSS)',
-        'jQuery',
-        'SQL',
-        'Bootstrap',
+        'Material UI',
         'Git',
-        'Agile',
+        'D3.js',
       ],
     },
     languages: {
       title: 'Языки',
-      languagesList: [
-        'Английский (Продвинутый / C2)',
-        'Русский (Родной Язык)',
-        'Французский (Базовый / A2)',
-      ],
+      languagesList: ['Английский (Продвинутый / C2)', 'Русский (Родной Язык)', 'Французский (Базовый / A2)'],
     },
     buttons: {
       resume: 'Резюме',

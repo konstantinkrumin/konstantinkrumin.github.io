@@ -3,10 +3,8 @@ import addCommonParameters from '../helpers/addCommonParameters';
 
 const englishText = {
   downloads: {
-    resume:
-      'https://github.com/konstantinkrumin/konstantinkrumin.github.io/blob/master/src/static/Resume_Konstantin_Krumin.pdf',
-    cv:
-      'https://github.com/konstantinkrumin/konstantinkrumin.github.io/blob/master/src/static/CV_Konstantin_Krumin.pdf',
+    resume: 'https://github.com/konstantinkrumin/konstantinkrumin.github.io/blob/master/src/static/Resume_Konstantin_Krumin.pdf',
+    cv: 'https://github.com/konstantinkrumin/konstantinkrumin.github.io/blob/master/src/static/CV_Konstantin_Krumin.pdf',
   },
   navigation: {
     home: 'Home',
@@ -14,8 +12,7 @@ const englishText = {
     resume: 'Resume',
   },
   home: {
-    description:
-      'Hi! My name is Konstantin Krumin and I am a Front-End Web Developer.',
+    description: 'Hi! My name is Konstantin Krumin and I am a Front-End Web Developer.',
   },
   portfolio: [
     { key: 'calculator', title: 'Calculator' },
@@ -49,37 +46,33 @@ const englishText = {
     },
     workExperience: {
       title: 'Work',
-      jobPosition: 'Application Specialist (CaseWare)',
-      jobPlace: 'MNP (Calgary, AB)',
-      years: '[ 2017 - 2019 ]',
+      jobPosition: 'Frontend Developer',
+      jobPlace: 'ICL Services (Kazan, Russia)',
+      years: '[ Oct. 2020 - Oct. 2021 ]',
     },
     stack: {
       title: 'Stack',
       stackList: [
         'JavaScript',
-        'HTML5',
-        'Web Design',
-        'React',
-        'CSS3',
-        'BEM',
-        'Redux',
-        'D3.js',
+        'Typescript',
+        'React + Redux',
+        'Node.JS',
+        'Express',
+        'MongoDB',
+        'Mongoose',
         'Python',
+        'Django',
+        'HTML5',
+        'CSS3',
         'Sass (SCSS)',
-        'jQuery',
-        'SQL',
-        'Bootstrap',
+        'Material UI',
         'Git',
-        'Agile',
+        'D3.js',
       ],
     },
     languages: {
       title: 'Languages',
-      languagesList: [
-        'English (Advanced / Fluent)',
-        'Russian (Native)',
-        'French (Basic)',
-      ],
+      languagesList: ['English (Advanced / Fluent)', 'Russian (Native)', 'French (Basic)'],
     },
     buttons: {
       resume: 'Resume',
